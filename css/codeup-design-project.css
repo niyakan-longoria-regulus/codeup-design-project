@@ -1,0 +1,84 @@
+
+h5 {
+    font-family: 'Anton', sans-serif;
+}
+
+h2 {
+
+    display: flex;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+
+}
+
+/*section {
+    display: inline-block;
+    padding: 1em;
+    color: black;
+    font-family: 'Anton', sans-serif;
+    text-decoration: none;
+}*/
+.nav-bar {
+    width: content-box;
+    height: max-content;
+
+}
+
+#circle1, #circle2, #circle3, #circle4 {
+    height: 105px;
+    width: 105px;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid white;
+    border-radius: 1%;
+
+}
+#circle1, #circle5 {
+    background-color: #E6563B;
+}
+#circle2, #circle6 {
+    background-color: #EB9D3A;
+}
+#circle3, #circle7 {
+    background-color: #7CB06C;
+}
+#circle4, #circle8 {
+    background-color: #00ABA9;
+}
+.circleA {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+#circle5, #circle6, #circle7, #circle8 {
+    height: 18px;
+    width: 18px;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.smallCircles {
+    font-size: xx-small;
+    display: flex;
+    align-self: flex-end;
+}
+
+li {
+    padding-left: 10px;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
