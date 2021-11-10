@@ -1,24 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
-h1{
-    font-size: 64px;
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+#topNav>li {
+    color: black;
+}
 
 h5 {
     font-family: 'Anton', sans-serif;
 }
 
-h2 {
-
-    display: flex;
-    justify-content: center;
-    font-family: 'Anton', sans-serif;
-    font-size: 48px;
-}
-
-h3 {
-    font-family: 'Anton', sans-serif;
-    font-size: 40px;
-
-}
 
 h4{
     font-size: 32px;
@@ -29,9 +20,6 @@ h5 {
     font-size: 28px;
 }
 
-
-}
-
 /*section {
     display: inline-block;
     padding: 1em;
@@ -40,11 +28,9 @@ h5 {
     text-decoration: none;
 }*/
 .nav-bar {
-    width: content-box;
-    height: max-content;
-
-
-
+    margin-top: 30px;
+    display: flex;
+    align-content: flex-start;
 }
 
 #circle1, #circle2, #circle3, #circle4 {
@@ -92,8 +78,8 @@ h5 {
 
 .smallCircles {
     font-size: xx-small;
-    display: flex;
-    align-self: flex-end;
+    /*display: flex;
+    align-self: flex-end;*/
 }
 
 li {
@@ -104,22 +90,29 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
 
+@media screen and (max-width: 540px) {
+    .theLast, .selectedWorkImages {
+        display: none;
+    }
+}
 
+@media screen and (min-width: 540px) {
+    .theLast {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .theLast {
+        display: contents;
+    }
 
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 960px) {
 }
 
-@media screen and (min-width: 576px) {
-}
-
-@media screen and (min-width: 768px) {
-}
-
-@media screen and (min-width: 992px) {
-}
-
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1140px) {
 }

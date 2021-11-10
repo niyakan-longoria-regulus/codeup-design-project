@@ -13,8 +13,12 @@
 
     <script src="https://kit.fontawesome.com/5bdcb73ea0.js" crossorigin="anonymous"></script>
     <style>
-        h1, h2, h3 {
+        h1, h2, h3, h4, h5 {
             font-family: 'Anton', sans-serif;
+        }
+        p {
+            font-family: 'Abel', sans-serif;
+            font-size: 28px;
         }
     </style>
 
@@ -34,14 +38,26 @@
                         Text Here
                     </a>
                 </nav-->
-                <nav>
-                <div class="nav-bar"><nav class="navbar navbar-light bg-light d-flex justify-content-center">
+                <div>
+                    <nav class="navbar navbar-light bg-light d-flex justify-content-center nav-bar">
                         <img src="assets/logo.png" width="105px" height="105px" alt="logo-image">
+                    </nav>
 
-                </nav>
                     <br><br>
-                    <h2>codeup design</h2>
-                    <h1 class="text-center font-weight-bold">VISUAL DESIGN & WEB DEVELOPMENT</h1><br>
+                    <p class="text-center" style="font-size: 48px">codeup design</p>
+                    <br><br>
+                    <section id="topNav">
+                        <div>
+                            <ul class="list-unstyled d-flex row justify-content-center">
+                                <li><a style="color: black" href="#">SERVICES</a></li>
+                                <li><a style="color: black" href="#">WORK</a></li>
+                                <li><a style="color: black" href="#">BLOG</a></li>
+                                <li><a style="color: black" href="#">CONTACT</a></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <br><br><br>
+                    <h1 class="text-center font-weight-bold" style="font-size: 64px">VISUAL DESIGN & WEB DEVELOPMENT</h1><br>
                     <h3 class="text-center font-weight-bold">FROM PARK CITY, UTAH</h3>
                 </div>
             </section>
@@ -54,16 +70,19 @@
             </div>
             </section>
             <br><br><br>
-            <section>
-                <h3 class="text-center">SELECTED WORK</h3>
+
+                <p class="text-center">SELECTED WORK</p>
                 <br><br>
                 <!---<div class="apple-ipad">
                     <img src="assets/images/apple-ipad.jpg" alt="apple-ipad">
                 </div>-->
-                <div class="card mb-3">
-                    <img src="assets/images/apple-ipad.jpg" class="card-img-top" alt="apple-ipad">
+
+            <section class="row row-cols-1 row-cols-sm-2 row-cols-md-2">
+                <div class="col mb-4">
+                    <div class="card" style="background-color: transparent; border: none">
+                    <div style="border: darkgrey solid 15px; border-radius: 2%"><img src="assets/images/apple-ipad.jpg" class="card-img-top" alt="apple-ipad"></div>
                     <div class="card-body">
-                        <h5 class="card-title">FEATURED PROJECT</h5>
+                        <p class="card-title">FEATURED PROJECT</p>
                             <ul class="row list-unstyled smallCircles">
                                 <li><div id="circle5" class="rounded-circle">D</div></li>
                                 <li><div id="circle6" class="rounded-circle">D</div></li>
@@ -72,11 +91,15 @@
                             </ul>
                     </div>
                 </div>
+                    </div>
 
-                <div class="card mb-3">
-                    <img src="assets/images/macbook.jpg" class="card-img-top" alt="macbook">
+                <!--<div class="selectedWorkImages">-->
+
+                    <div class="col mb-4 selectedWorkImages">
+                    <div class="card" style="background-color: transparent; border: none">
+                    <div style="border: darkgrey solid 15px; border-radius: 2%"><img src="assets/images/macbook.jpg" class="card-img-top" alt="macbook"></div>
                     <div class="card-body">
-                        <h5 class="card-title">FEATURED PROJECT</h5>
+                        <p class="card-title">FEATURED PROJECT</p>
                         <ul class="row list-unstyled smallCircles">
                             <li><div id="circle5" class="rounded-circle">D</div></li>
                             <li><div id="circle6" class="rounded-circle">D</div></li>
@@ -85,11 +108,14 @@
                         </ul>
                     </div>
                 </div>
+                </div>
 
-                <div class="card mb-3">
-                    <img src="assets/images/man.jpg" class="card-img-top" alt="man">
+                        <!--<div class="selectedWorkImages">-->
+                            <div class="col mb-4 selectedWorkImages">
+                        <div class="card" style="background-color: transparent; border: none">
+                    <div style="border: darkgrey solid 15px; border-radius: 2%"><img src="assets/images/man.jpg" class="card-img-top" alt="man"></div>
                     <div class="card-body">
-                        <h5 class="card-title">FEATURED PROJECT</h5>
+                        <p class="card-title">FEATURED PROJECT</p>
                         <ul class="row list-unstyled smallCircles">
                             <li><div id="circle5" class="rounded-circle">D</div></li>
                             <li><div id="circle6" class="rounded-circle">D</div></li>
@@ -98,11 +124,12 @@
                         </ul>
                     </div>
                 </div>
-
-                <div class="card mb-3">
-                    <img src="assets/images/security.jpg" class="card-img-top" alt="security">
+                </div>
+                    <div class="col mb-4 selectedWorkImages">
+                    <div class="card" style="background-color: transparent; border: none">
+                    <div style="border: darkgrey solid 15px; border-radius: 2%"><img src="assets/images/security.jpg" class="card-img-top" alt="security"></div>
                     <div class="card-body">
-                        <h5 class="card-title">FEATURED PROJECT</h5>
+                        <p class="card-title">FEATURED PROJECT</p>
                         <ul class="row list-unstyled smallCircles">
                             <li><div id="circle5" class="rounded-circle">D</div></li>
                             <li><div id="circle6" class="rounded-circle">D</div></li>
@@ -110,83 +137,80 @@
                             <li><div id="circle8" class="rounded-circle">H</div></li>
                         </ul>
                     </div>
+                </div>
                 </div>
             </section>
 
-            <div class="container-fluid">
-                <section>
+
+            <section>
+                <div class="container-fluid theLast">
                     <br><br><br>
 <!--                    <div class="row gx-6 justify-content-center">-->
 <!--                        <div class="col-lg-4 col-sm-12">-->
-                    <h3 class="text-center">The Last</h3>
-                    <br><br>
-                    <div class="card mb-3" style="min-width: 540px;">
+                    <p>THE LAST</p>
+                    <br><br><br>
+                    <div class="card mb-3" style="background-color: transparent; border: none">
                         <div class="row g-0">
                             <div class="col-md-4">
                                 <img src="assets/images/mobile-phone.jpg" class="img-fluid rounded-start" alt="mobile-phone">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h1 class="card-title">THE ADMIN BAR AND ABSOLUTE POSITIONING</h1>
+                                    <h1 class="card-title" style="font-weight: bolder">THE ADMIN BAR AND ABSOLUTE POSITIONING</h1>
 <!--                                    <p class="card-text"></p>-->
 <!--                                    <p class="card-text"><small class="text-muted"> </small></p>-->
                                 </div>
                             </div>
-                            <br><br><br>
 
                     </div>
                     </div>
-            </section>
-        </main>
-
-<body style="background-color: lightgrey">
-
-    <!---<h1 class="display-2 text-center m-5">codeup design</h1>--->
-        <main class="container">
-            <section>
-                <!---<nav class="navbar navbar-light bg-light">
-                    <a class="navbar-brand" href="#">
-                        <img src="assets/logo.png" width="105px" height="105px" class="d-inline-block align-bottom" alt="" loading="lazy">
-                        Text Here
-                    </a>
-                </nav>-->
-                <div class="nav-bar"><nav class="navbar navbar-light bg-light d-flex justify-content-center">
-                        <img src="assets/logo.png" width="105px" height="105px" alt="logo-image">
-                </nav>
-                    <br><br>
-                    <h2>codeup design</h2>
-                    <h1 class="text-center font-weight-bold">VISUAL DESIGN & WEB DEVELOPMENT</h1><br>
-                    <h3 class="text-center font-weight-bold">FROM PARK CITY, UTAH</h3>
-                </div>
-            </section>
-            <section class="circleA">
-            <div class="allCircles row col-8 d-flex flex-row align-content-center">
-                <div id="circle1" class="rounded-circle circleA">DESIGN</div>
-                <div id="circle2" class="rounded-circle circleA">DEVELOP</div>
-                <div id="circle3" class="rounded-circle circleA">SUPPORT</div>
-                <div id="circle4" class="rounded-circle circleA">HOST</div>
-            </div>
-            </section>
-            <br><br><br>
-            <section>
-                <h3 class="text-center">SELECTED WORK</h3>
                 <br><br>
-                <!---<div class="apple-ipad">
-                    <img src="assets/images/apple-ipad.jpg" alt="apple-ipad">
-                </div>-->
-                <div class="card mb-3">
-                    <img src="assets/images/apple-ipad.jpg" class="card-img-top" alt="apple-ipad">
-                    <div class="card-body">
-                        <h5 class="card-title">FEATURED PROJECT</h5>
-                            <ul class="row list-unstyled smallCircles">
-                                <li><div id="circle5" class="rounded-circle">D</div></li>
-                                <li><div id="circle6" class="rounded-circle">D</div></li>
-                                <li><div id="circle7" class="rounded-circle">S</div></li>
-                                <li><div id="circle8" class="rounded-circle">H</div></li>
-                            </ul>
+                <div class="card mb-3" style="background-color: transparent; border: none">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/images/head.jpg" class="img-fluid rounded-start" alt="head-image">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h1 class="card-title" style="font-weight: bolder">NIBBLER AWESOME WEBSITE TESTING</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="card mb-3" style="background-color: transparent; border: none">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/images/ipad.jpg" class="img-fluid rounded-start" alt="ipad-image">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h1 class="card-title" style="font-weight: bolder">HOW TO GET GOOGLE TO LIKE YOU</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="card mb-3" style="background-color: transparent; border: none">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <div style="color: dodgerblue"><a style="font-size: xxx-large" href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a></div>
+                        </div>
+                        <h3 class="card-title">LAST TWEET</h3>
+                        <div class="col-md-8">
+                            <div class="card-body lastTweet">
+                                <p class="card-title" style="font-size: medium">The greatest glory in living lies not in never falling,
+                                    but in rising every time we fall. -Nelson Mandela <br>
+                                If you look at what you have in life, you'll always have more. If you look
+                                    at what you don't have in life, you'll never have enough. -Oprah Winfrey</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
+
+
+            </div>
             </section>
         </main>
 
