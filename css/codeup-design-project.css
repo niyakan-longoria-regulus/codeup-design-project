@@ -1,4 +1,7 @@
 
+h1{
+    font-size: 64px;
+
 h5 {
     font-family: 'Anton', sans-serif;
 }
@@ -8,6 +11,24 @@ h2 {
     display: flex;
     justify-content: center;
     font-family: 'Anton', sans-serif;
+    font-size: 48px;
+}
+
+h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+
+}
+
+h4{
+    font-size: 32px;
+}
+
+h5 {
+    font-family: 'Anton', sans-serif;
+    font-size: 28px;
+}
+
 
 }
 
@@ -21,6 +42,8 @@ h2 {
 .nav-bar {
     width: content-box;
     height: max-content;
+
+
 
 }
 
@@ -81,4 +104,22 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+
+
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {
 }
