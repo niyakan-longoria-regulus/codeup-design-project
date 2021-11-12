@@ -39,28 +39,38 @@
                     </a>
                 </nav-->
                 <div>
-                    <nav class="navbar navbar-light bg-light d-flex justify-content-center nav-bar">
-                        <img src="assets/logo.png" width="105px" height="105px" alt="logo-image">
-                    </nav>
+                    <div class="navBar"><nav class="navbar navbar-light bg-light nav-bar"></nav></div>
+                        <div class="d-flex justify-content-center"><img src="assets/logo.png" width="105px" height="105px" alt="logo-image" class="logoIMG"></div>
+                    <div class="topLinks-md">
+                        <ul class="list-unstyled row nbwimg">
+                            <li><a class="topNav" style="color: black" href="#">SERVICES</a></li>
+                            <li><a class="topNav" style="color: black" href="#">WORK</a></li>
+                            <li><a href="#"><img src="assets/logo.png" width="105px" height="105px" alt="logo-image" class="logoIMG2"></a></li>
+                            <li><a class="topNav" style="color: black" href="#">BLOG</a></li>
+                            <li><a class="topNav" style="color: black" href="#">CONTACT</a></li>
+                        </ul>
+                    </div>
 
-                    <br><br>
+                    <br>
                     <p class="text-center" style="font-size: 48px">codeup design</p>
-                    <br><br>
+                    <br>
                     <section id="topNav">
-                        <div>
-                            <ul class="list-unstyled d-flex row justify-content-center">
-                                <li><a style="color: black" href="#">SERVICES</a></li>
-                                <li><a style="color: black" href="#">WORK</a></li>
-                                <li><a style="color: black" href="#">BLOG</a></li>
-                                <li><a style="color: black" href="#">CONTACT</a></li>
+                        <div class="topLinks">
+                            <ul class="list-unstyled row">
+                                <li><a class="topNav" style="color: black" href="#">SERVICES</a></li>
+                                <li><a class="topNav" style="color: black" href="#">WORK</a></li>
+                                <!---<li><a href="#"><img src="assets/logo.png" width="105px" height="105px" alt="logo-image" class="logoIMG"></a></li>--->
+                                <li><a class="topNav" style="color: black" href="#">BLOG</a></li>
+                                <li><a class="topNav" style="color: black" href="#">CONTACT</a></li>
                             </ul>
                         </div>
                     </section>
                     <br><br><br>
-                    <h1 class="text-center font-weight-bold" style="font-size: 64px">VISUAL DESIGN & WEB DEVELOPMENT</h1><br>
+                    <h1 class="text-center font-weight-bold" style="font-size: 64px">VISUAL DESIGN & WEB DEVELOPMENT</h1><br><br>
                     <h3 class="text-center font-weight-bold">FROM PARK CITY, UTAH</h3>
                 </div>
             </section>
+            <br>
             <section class="circleA">
             <div class="allCircles row col-8 d-flex flex-row align-content-center justify-content-center">
                 <div id="circle1" class="rounded-circle circleA">DESIGN</div>
@@ -69,20 +79,27 @@
                 <div id="circle4" class="rounded-circle circleA">HOST</div>
             </div>
             </section>
+
+            <hr style="height: 2px; background-color: darkgrey; border: none; margin-left: -50px; margin-right: -50px">
             <br><br><br>
 
-                <p class="text-center">SELECTED WORK</p>
-                <br><br>
+                <!---<p class="text-center selectWork">SELECTED WORK</p>
+                <br><br>--->
                 <!---<div class="apple-ipad">
                     <img src="assets/images/apple-ipad.jpg" alt="apple-ipad">
                 </div>-->
 
-            <section class="row row-cols-1 row-cols-sm-2 row-cols-md-2">
+
+            <section class="row finalSection">
+                <div class="col-lg-7">
+                    <p class="text-center selectWork">SELECTED WORK</p>
+                    <br><br>
+            <section class="row cols-sm-1 row-cols-sm-2 row-cols-md-2 col-lg-13 gridCard">
                 <div class="col mb-4">
                     <div class="card" style="background-color: transparent; border: none">
                     <div style="border: darkgrey solid 15px; border-radius: 2%"><img src="assets/images/apple-ipad.jpg" class="card-img-top" alt="apple-ipad"></div>
                     <div class="card-body">
-                        <p class="card-title">FEATURED PROJECT</p>
+                        <p class="card-title row">FEATURED PROJECT</p>
                             <ul class="row list-unstyled smallCircles">
                                 <li><div id="circle5" class="rounded-circle">D</div></li>
                                 <li><div id="circle6" class="rounded-circle">D</div></li>
@@ -99,7 +116,7 @@
                     <div class="card" style="background-color: transparent; border: none">
                     <div style="border: darkgrey solid 15px; border-radius: 2%"><img src="assets/images/macbook.jpg" class="card-img-top" alt="macbook"></div>
                     <div class="card-body">
-                        <p class="card-title">FEATURED PROJECT</p>
+                        <p class="card-title row">FEATURED PROJECT</p>
                         <ul class="row list-unstyled smallCircles">
                             <li><div id="circle5" class="rounded-circle">D</div></li>
                             <li><div id="circle6" class="rounded-circle">D</div></li>
@@ -113,9 +130,9 @@
                         <!--<div class="selectedWorkImages">-->
                             <div class="col mb-4 selectedWorkImages">
                         <div class="card" style="background-color: transparent; border: none">
-                    <div style="border: darkgrey solid 15px; border-radius: 2%"><img src="assets/images/man.jpg" class="card-img-top" alt="man"></div>
+                    <div style="border: darkgrey solid 15px; border-radius: 2%"><img src="assets/images/man.jpg" class="card-img-top manImage" alt="man"></div>
                     <div class="card-body">
-                        <p class="card-title">FEATURED PROJECT</p>
+                        <p class="card-title row">FEATURED PROJECT</p>
                         <ul class="row list-unstyled smallCircles">
                             <li><div id="circle5" class="rounded-circle">D</div></li>
                             <li><div id="circle6" class="rounded-circle">D</div></li>
@@ -129,7 +146,7 @@
                     <div class="card" style="background-color: transparent; border: none">
                     <div style="border: darkgrey solid 15px; border-radius: 2%"><img src="assets/images/security.jpg" class="card-img-top" alt="security"></div>
                     <div class="card-body">
-                        <p class="card-title">FEATURED PROJECT</p>
+                        <p class="card-title row">FEATURED PROJECT</p>
                         <ul class="row list-unstyled smallCircles">
                             <li><div id="circle5" class="rounded-circle">D</div></li>
                             <li><div id="circle6" class="rounded-circle">D</div></li>
@@ -140,23 +157,23 @@
                 </div>
                 </div>
             </section>
+                </div>
 
-
-            <section>
+            <div class="col-lg-5" style="padding-left: 40px">
                 <div class="container-fluid theLast">
-                    <br><br><br>
+
 <!--                    <div class="row gx-6 justify-content-center">-->
 <!--                        <div class="col-lg-4 col-sm-12">-->
                     <p>THE LAST</p>
-                    <br><br><br>
-                    <div class="card mb-3" style="background-color: transparent; border: none">
-                        <div class="row g-0">
+                    <br><br>
+                    <div class="card mb-3" style="background-color: transparent; border: none; margin-top: -20px">
+                        <div class="row g-0 d-flex align-items-center">
                             <div class="col-md-4">
                                 <img src="assets/images/mobile-phone.jpg" class="img-fluid rounded-start" alt="mobile-phone">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h1 class="card-title" style="font-weight: bolder">THE ADMIN BAR AND ABSOLUTE POSITIONING</h1>
+                                    <h1 class="card-title theLast1" style="font-weight: bolder">THE ADMIN BAR AND ABSOLUTE POSITIONING</h1>
 <!--                                    <p class="card-text"></p>-->
 <!--                                    <p class="card-text"><small class="text-muted"> </small></p>-->
                                 </div>
@@ -164,45 +181,47 @@
 
                     </div>
                     </div>
-                <br><br>
-                <div class="card mb-3" style="background-color: transparent; border: none">
-                    <div class="row g-0">
+
+                <div class="card mb-3" style="background-color: transparent; border: none; margin-top: -20px">
+                    <div class="row g-0  d-flex align-items-center">
                         <div class="col-md-4">
                             <img src="assets/images/head.jpg" class="img-fluid rounded-start" alt="head-image">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h1 class="card-title" style="font-weight: bolder">NIBBLER AWESOME WEBSITE TESTING</h1>
+                                <h1 class="card-title theLast1" style="font-weight: bolder">NIBBLER AWESOME WEBSITE TESTING</h1>
                             </div>
                         </div>
                     </div>
                 </div>
-                <br><br>
-                <div class="card mb-3" style="background-color: transparent; border: none">
-                    <div class="row g-0">
+
+                <div class="card mb-3" style="background-color: transparent; border: none; margin-top: -20px">
+                    <div class="row g-0 d-flex align-items-center">
                         <div class="col-md-4">
                             <img src="assets/images/ipad.jpg" class="img-fluid rounded-start" alt="ipad-image">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h1 class="card-title" style="font-weight: bolder">HOW TO GET GOOGLE TO LIKE YOU</h1>
+                                <h1 class="card-title theLast1" style="font-weight: bolder">HOW TO GET GOOGLE TO LIKE YOU</h1>
                             </div>
                         </div>
                     </div>
                 </div>
-                <br><br>
-                <div class="card mb-3" style="background-color: transparent; border: none">
-                    <div class="row g-0">
+
+                <div class="card mb-3" style="background-color: transparent; border: none; margin-top: -20px">
+                    <div class="row g-0 d-flex align-items-center">
                         <div class="col-md-4">
                             <div style="color: dodgerblue"><a style="font-size: xxx-large" href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a></div>
                         </div>
-                        <h3 class="card-title">LAST TWEET</h3>
-                        <div class="col-md-8">
-                            <div class="card-body lastTweet">
+                        <div class="lastTweet">
+                        <p class="card-title" style="font-size: 16px; font-weight: bold; margin-left: -40px">LAST TWEET</p>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="card-body lastTweet" style="padding-left: 0; padding-top: 0">
                                 <p class="card-title" style="font-size: medium">The greatest glory in living lies not in never falling,
-                                    but in rising every time we fall. -Nelson Mandela <br>
-                                If you look at what you have in life, you'll always have more. If you look
-                                    at what you don't have in life, you'll never have enough. -Oprah Winfrey</p>
+                                    but in rising every time we fall. -Nelson Mandela<br>
+                                    Click on the twitter icon to tweet reply.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -210,6 +229,7 @@
 
 
 
+            </div>
             </div>
             </section>
         </main>

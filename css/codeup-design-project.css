@@ -2,6 +2,25 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+/* {
+    box-sizing: border-box;
+}*/
+
+.navBar {
+    display: flex;
+    background-color: white;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.logoIMG {
+    margin-top: -80px;
+}
+
+
+
 #topNav>li {
     color: black;
 }
@@ -27,11 +46,7 @@ h5 {
     font-family: 'Anton', sans-serif;
     text-decoration: none;
 }*/
-.nav-bar {
-    margin-top: 30px;
-    display: flex;
-    align-content: flex-start;
-}
+
 
 #circle1, #circle2, #circle3, #circle4 {
     height: 105px;
@@ -85,34 +100,82 @@ h5 {
 li {
     padding-left: 10px;
 }
-
 .card-body {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+
 @media screen and (max-width: 540px) {
-    .theLast, .selectedWorkImages {
+    .theLast, .selectedWorkImages, .topLinks-md {
         display: none;
+    }
+    div.topLinks {
+        display: flex;
+        justify-content: center;
     }
 }
 
 @media screen and (min-width: 540px) {
-    .theLast {
+    .theLast, section#topNav, .logoIMG {
         display: none;
+    }
+    p.card-title {
+        font-size: 10px;
+    }
+
+    div.topLinks-md {
+        list-style: none;
+        margin-top: -80px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    ul.nbwimg {
+        display: flex;
+        align-items: center;
+
     }
 }
 
 @media screen and (min-width: 720px) {
     .theLast {
-        display: contents;
+        display: none;
     }
+
+    p.card-title {
+        font-size: 14px;
+    }
+
 
 }
 
 @media screen and (min-width: 960px) {
+    .theLast {
+        display: contents;
+    }
+    /*section.gridCard {
+        margin-left: -95px;
+    }*/
+    p.selectWork {
+        display: flex;
+        justify-content: left;
+    }
+    p.card-title {
+        font-size: 14px;
+    }
+    h1.theLast1 {
+        font-size: 24px;
+        margin-left: -20px;
+    }
+    .finalSection {
+        display: flex;
+    }
 }
 
 @media screen and (min-width: 1140px) {
+    p.card-title {
+        font-size: 18px;
+    }
 }
